@@ -924,9 +924,9 @@ parse_hg_status() {
             hg_vcs_char="☿"
             hg_up_char="⬆"
             case $phase in
-                public)  phase="${green}⚌";; # ☻
-                draft)   phase="${yellow}⚍";; # ☺
-                secret)  phase="${red}⚏";; # ☹
+                public)  phase="${green}☻";; # ☻ # ⚌
+                draft)   phase="${yellow}☺";; # ☺ # ⚍
+                secret)  phase="${red}☹";; # ☹ # ⚏
                 *)       phase="" ;;
             esac
         else
